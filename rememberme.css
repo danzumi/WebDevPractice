@@ -1,0 +1,13 @@
+/* ===============================================
+ Use .clearfix to clear the float after your element so it remains
+  in its parent container
+*/
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+/* =================================================
